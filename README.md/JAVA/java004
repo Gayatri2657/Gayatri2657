@@ -1,0 +1,44 @@
+package vehicle;
+public class TwoWheeler
+  {
+    it cc;
+    int price;
+    public void display(int cc, int price)
+    {
+      this.cc=cc;
+      this.price=price;
+    System.out.println(this.cc);
+    System.out.println(this.price);
+    }
+  }
+package vehicle;
+public class FourWheeler
+  {
+    int regno;
+    int regyear;
+    public void display(int regno, int regyear)
+    {
+      this.regno;
+      this.regyear;
+      public void display (int regno, int regyear)
+        {
+        this.regno=regno;
+        this.regyear=regyear;
+        System.out.println(this.regno);
+        System.out.println(this.regyear);
+      }
+    }
+    import vehicle.*;
+class Main
+  {
+    public static void main(String args[])
+    {
+
+      vehicle.TwoWheeler t1=new vehicle.TwoWheeler();
+      t1.display(1,2100000);
+      vehicle.FourWheeler f1=new vehicle.FourWheeler();
+      f1.display(02, 2022);
+    }
+  }
+          
+        
