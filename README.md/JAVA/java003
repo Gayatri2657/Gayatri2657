@@ -1,0 +1,33 @@
+public interface Shape
+  {
+  double Area(double a, double b);
+  }
+double Area(doublea, double b);
+}
+class Triangle iplements Shape
+  {
+  public double Area(double b, double h)
+    {
+    return(b*h/2);
+  }
+}
+class Rectangle implements Shape
+  {public double Area(double l, double b)
+   {
+     return (l*b);
+   }
+  }
+public class Main
+  {
+    public static void main(String args[])
+    {
+      Rectangle r=new Rectangle();
+      double RArea=r.area(10,20);
+      System.out.println("The Area of Rectangle is: "+RArea)
+
+        Triangle t=new Triangle();
+      double TArea=t.Area(10,20);
+      System.out.println("The Area of the Triangle is: "+TArea);
+    }
+  }
+        
